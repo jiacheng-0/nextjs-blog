@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import styles from "./layout.module.css";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
 
-const name = 'Jia Cheng'
-export const siteTitle = 'Jia Cheng Teo'
+const name = "Jia Cheng";
+export const siteTitle = "Jia Cheng Teo - Home";
 
 export default function Layout({ children, home }) {
   return (
@@ -13,8 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          // content="Learn how to build a personal website using Next.js"
-          content="Welcome to my portfolio site built with Next.js"
+          content="Year 3 SMU BSc (Information Systems), Major in Software Development. Check out my projects in Python, DevOps etc. Check out my Github, Linkedin here:"
         />
         <meta
           property="og:image"
@@ -63,5 +62,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
