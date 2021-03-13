@@ -35,20 +35,22 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Year 3 SMU student, major in Software Development</p>
-        <p>Graduating in Dec 2021.</p>
+        <p>Graduating in April 2022.</p>
       </section>
       <section>
         <h2 className={utilStyles.headingLg}>Brawl Stars Project</h2>
-        <Link href={`/brawl`}>
+        <Link
+          href={`https://medium.com/@jiacheng111/a-look-at-how-the-daily-trophy-reporting-bot-brawl-stars-was-made-t-me-cmcbrawlbot-4d891389cd03`}
+        >
           <a>Let's see some brawl stars :)</a>
         </Link>
       </section>
-      <section>
+      {/* <section>
         <h2 className={utilStyles.headingLg}>Log In</h2>
         <Link href={`/login`}>
           <a>Go to Log In Page</a>
         </Link>
-      </section>
+      </section> */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>

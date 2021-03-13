@@ -1,4 +1,9 @@
-# I've actually learnt something new in Python after 1 year
+---
+title: "New Stonks in Python"
+date: "2021-03-14"
+---
+
+# I've learnt something new in Python after 1 year
 
 and that is the `nonlocal` keyword
 which allows you to access a variable that is declared outside of the current scope/namespace.
@@ -75,7 +80,7 @@ def makingAnagrams(s1, s2):
     return count
 ```
 
-## Psost-'nonlocal' enlightenment code
+## Post-'nonlocal' enlightenment code
 
 Repeated code is abstracted into function
 
